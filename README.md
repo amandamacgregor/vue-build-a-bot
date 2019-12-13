@@ -1,5 +1,9 @@
 # build-a-bot
 
+follow along to PluralSight Course: https://app.pluralsight.com/library/courses/vuejs-fundamentals/table-of-contents
+
+data/images source: https://github.com/jmcooper/vuejs-fundamentals
+
 ## Project setup
 ```
 npm install
