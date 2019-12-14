@@ -57,6 +57,7 @@
 </template>
 
 <script>
+import createdHookMixin from './created-hook-mixin';
 import availableParts from '../data/parts';
 
 function getPreviousValidIndex(i, l) {
@@ -82,6 +83,7 @@ export default {
       selectedBaseIndex: 0,
     };
   },
+  mixins: [createdHookMixin],
   computed: {
     saleBorderClass() {
       return this.selectedRobot.head.onSale ? 'sale-border' : '';
